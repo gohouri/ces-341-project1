@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/gohouri/ces-341-project1#readme",
   "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.14.2"
+    "mongodb": "^6.14.2",
+    "parser": "^0.1.4",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   }
 }

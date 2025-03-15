@@ -1,0 +1,35 @@
+// LOCALHOST
+### Get all users
+GET http://localhost:1408/users
+
+
+### Get users by id
+GET http://localhost:1408/users/67cf0ea80fb0d78628fbbd69
+
+
+### Create users
+POST http://localhost:1408/users HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "DOE",
+  "lastName": "Yoann",
+  "email": "Yoann@example.com",
+  "favoriteColor": "yellow",
+  "birthday": "10/02/1995"
+}
+
+
+### PUT users
+PUT http://localhost:1408/users/67cf0ea80fb0d78628fbbd69 HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Ange",
+  "lastName": "Junior",
+  "email": "ange@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "01/10/1992"
+}
+### DELETE users
+DELETE http://localhost:1408/users/67d5b0350963d8176501d46e HTTP/1.1
